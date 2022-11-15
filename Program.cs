@@ -33,25 +33,6 @@ class Program
 		List<List<string>> allHands = cardsFactory.GenerateAllHands();
 
 		//Debugging
-		// foreach (var hand in allHands)
-		// {
-		// 	PrintHand(hand);
-		// }
-		//
-		// PrintShuffledDeck();
-		//
-		// foreach (var hand in allHands)
-		// {
-		// 	cardsFactory.DrawCard(hand, cardsFactory.ShuffledDeck);
-		// }
-		//
-		// foreach (var hand in allHands)
-		// {
-		// 	PrintHand(hand);
-		// }
-		//
-		// PrintShuffledDeck();
-
 		for (int i = 0; i < 4; i++)
 		{ 
 			Console.WriteLine("(Before draw card) Player{0}: {1}", i+1, PrintHand(allHands[i]));
