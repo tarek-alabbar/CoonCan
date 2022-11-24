@@ -9,7 +9,7 @@ public class Player
 
 	public override string ToString()
 	{
-		string player = $"Name: {Name}, Score: {Score}\n";
+		string player = $"Name: {Name}, Score: {Score}";
 		return player;
 	}
 }

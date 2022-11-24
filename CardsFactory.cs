@@ -7,7 +7,6 @@ public class CardsFactory
 	private readonly string[] _suits = { "H", "D", "C", "S"};
 	const int NumberOfDecks = 2;
 	const int NumberOfJokers = 2;
-	const int NumberOfPlayers = 2;
 	const int NumberOfCardPerHand = 14;
 	
 
